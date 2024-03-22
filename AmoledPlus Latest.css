@@ -3,6 +3,7 @@
  * @author LHgaming
  * @version 0.2.0
  * @description A customizable Dark theme for Discord.
+ * @website https://lhgaming0.github.io/amoled.plus/
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
@@ -10,7 +11,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
 
 :root{
-    --default-color: rgb(40, 108, 255); /* Change the default colour of discord.
+    --default-color: unset; /* Change the default colour of discord.
     Default: rgb(40, 108, 255);
     Discord: rgb(88 101 242);
 
@@ -25,7 +26,7 @@
     Black: rgb(21, 21, 26);
     */
 
-    --background-image: url(https://i.pinimg.com/originals/fd/b2/1c/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif); /* 
+    --background-image: unset; /* 
     Choose your background image
     Dark: url(https://media.idownloadblog.com/wp-content/uploads/2021/06/macOS-Monterey-wallpaper-Dark.jpg);
     Light: url(https://media.idownloadblog.com/wp-content/uploads/2021/06/macOS-Monterey-wallpaper-Light.jpg);
@@ -39,7 +40,7 @@
     Eg:- 10px;
     */
 
-    --default-font: 'Poppins'; /* Change the default font of discord.
+    --default-font: unset; /* Change the default font of discord.
     Default: 'Poppins' (remember to copy the quotation marks)
     Discord: 'Discord'
     Nunito: 'Nunito'
