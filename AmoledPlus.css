@@ -1,15 +1,47 @@
 /**
  * @name AmoledPlus
  * @author LHgaming
- * @version 0.1.5
- * @description A simple Amoled theme for Discord.
+ * @version 0.2.0
+ * @description A customizable Dark theme for Discord.
 */
 
 @import url(https://lhgaming0.github.io/gigatown.com/AmoledPlus.css);
 
-
 :root{
-    --default-color: rgb(88 101 242); /* Change the default colour of discord.
+    --default-color: rgb(40, 108, 255); /* Change the default colour of discord.
+    Default: rgb(40, 108, 255);
     Discord: rgb(88 101 242);
+
+    PRESET COLOURS
+    Red: rgb(212, 63, 63);
+    Orange: rgb(197, 84, 32);
+    Yellow: rgb(206, 175, 0);
+    Green: rgb(41, 161, 36);
+    Blue: rgb(50, 88, 255);
+    Pink: rgb(195, 83, 223);
+    Purple: rgb(104, 42, 250);
+    Black: rgb(21, 21, 26);
+    */
+
+    --background-image: url(https://media.idownloadblog.com/wp-content/uploads/2021/06/macOS-Monterey-wallpaper-Dark.jpg); /* 
+    Choose your background image
+    Dark: url(https://media.idownloadblog.com/wp-content/uploads/2021/06/macOS-Monterey-wallpaper-Dark.jpg);
+    Light: url(https://media.idownloadblog.com/wp-content/uploads/2021/06/macOS-Monterey-wallpaper-Light.jpg);
+    Set to none if you want a completely dark theme
+    Set to a colour if you want a colour theme
+    */
+
+    --background-blur: unset; /* Change the blur of the background image
+    Default: unset;
+    Set to any amount of pixels.
+    Eg:- 10px;
+    */
+
+    --default-font: 'Poppins'; /* Change the default font of discord.
+    Default: 'Poppins' (remember to copy the quotation marks)
+    Discord: 'Discord'
+    Nunito: 'Nunito'
+    Roboto: 'Roboto'
+    Righteous: 'Righteous'
     */
 }
