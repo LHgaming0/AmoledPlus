@@ -1,0 +1,26 @@
+/**
+ * @name AmoledPlus Classic
+ * @author LHgaming
+ * @version 0.1.6
+ * @description A simple Amoled theme for Discord.
+*/
+
+@import url(https://lhgaming0.github.io/gigatown.com/AmoledPlusClassic.css);
+
+
+:root{
+    --default-color: rgb(40, 108, 255); /* Change the default colour of discord.
+    Default: rgb(40, 108, 255);
+    Discord: rgb(88 101 242);
+    */
+
+    --default-background: rgba(40, 108, 255, 0.15); /* Change your backgrounds color.
+    Default: rgba(40, 108, 255, 0.15);
+    If you don't want it set it to none
+    */
+
+    --default-font: 'Nunito'; /* Change the default font of discord.
+    Default: 'Nunito' (remember to copy the quotation marks)
+    Discord: 'Discord'
+    */
+}
